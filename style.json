@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": { "maputnik:renderer": "mlgljs" },
+  "sources": {
+    "v": {
+      "type": "vector",
+      "tiles": [
+        "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf"
+      ],
+      "center": [138.34, 35.66],
+      "zoom": 7,
+      "minzoom": 4,
+      "maxzoom": 16,
+      "attribution": "<a href=\"https://maps.gsi.go.jp/vector/\" target=\"_blank\">国土地理院ベクトルタイル提供実験</a>",
+      "bounds": [123, 24, 147, 44]
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "bg",
+      "type": "background",
+      "paint": { "background-color": "rgba(232, 225, 225, 1)" }
+    },
+    {
+      "id": "coastline",
+      "type": "line",
+      "source": "v",
+      "source-layer": "coastline"
+    },
+    {
+      "id": "waterarea",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "waterarea",
+      "paint": { "fill-color": "rgba(20, 101, 223, 1)" }
+    }
+  ],
+  "id": "hfkgus5"
+}
