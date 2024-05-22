@@ -3,7 +3,7 @@
   "name": "Empty Style",
   "metadata": { "maputnik:renderer": "mlgljs" },
   "center": [138.34, 35.66],
-  "zoom": 7,
+  "zoom": 6,
   "sources": {
     "v": {
       "type": "vector",
