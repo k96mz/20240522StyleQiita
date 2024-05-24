@@ -13,7 +13,7 @@ https://maputnik.github.io/editor/?style=https://k96mz.github.io/20240522StyleQi
 
 https://maputnik.github.io/editor/?style=https://k96mz.github.io/20240522StyleQiita/style2.json
 
-スタイルの URL
+スタイルの URL  
 https://k96mz.github.io/20240522StyleQiita/style.json
 
 https://k96mz.github.io/20240522StyleQiita/style2.json
